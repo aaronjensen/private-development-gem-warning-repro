@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    my-other-gem (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+GEM
+  remote: https://rubygems.pkg.github.com/aaronjensen/
+  specs:
+    my-private-gem (1.0.0)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  my-other-gem!
+  my-private-gem!
+
+BUNDLED WITH
+   2.2.15
